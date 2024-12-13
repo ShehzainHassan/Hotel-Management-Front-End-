@@ -1,0 +1,77 @@
+.mainContent {
+  display: grid;
+  grid-template-columns: 6fr 6fr;
+}
+.heading {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  gap: 50px;
+}
+.title_description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.description {
+  line-height: 1.5rem;
+  max-width: 400px;
+}
+.price {
+  display: flex;
+  gap: 20px;
+}
+.priceContent {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.number {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.priceDetails {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  padding: 15px;
+  background-color: white;
+  color: orange;
+  border: 1px solid orange;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 10px;
+}
+.btn:hover {
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .number {
+    font-size: 1.5rem;
+  }
+  .priceDetails {
+    flex-direction: column;
+    gap: 10px;
+    align-items: unset;
+  }
+  .btn {
+    width: 100%;
+  }
+  .heading {
+    font-size: 2rem;
+  }
+}

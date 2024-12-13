@@ -1,0 +1,37 @@
+[
+    {
+        "roomTitle": "Deluxe Suite",
+        "roomType": "suite Room",
+        "description": "spacious and luxurious suite with stunning views. Enjoy the comfort and elegance of this beautiful...",
+        "price": "$ 100",
+        "status": "BOOKED"
+    },
+    {
+        "roomTitle": "Family Suite",
+        "roomType": "Suite Room",
+        "description": "spacious suite suitable for families with children. This comfortable and well-appointed suite offe...",
+        "price": "$ 300",
+        "status": "BOOKED"
+    },
+    {
+        "roomTitle": "Test Hotel",
+        "roomType": "luxury Room",
+        "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in th...",
+        "price": "$ 1000",
+        "status": "BOOKED"
+    },
+    {
+        "roomTitle": "Executive Room",
+        "roomType": "luxury Room",
+        "description": "spacious executive room with a view of the city skyline. Enjoy the comforts of modern luxury in th...",
+        "price": "$ 200",
+        "status": "BOOKED"
+    },
+    {
+        "roomTitle": "Luxury Villa",
+        "roomType": "basic Room",
+        "description": "n exquisite villa with a private pool and garden. Indulge in the ultimate luxury and tranquility wi...",
+        "price": "$ 500",
+        "status": "BOOKED"
+    }
+]

@@ -1,0 +1,68 @@
+.container {
+  background-color: #038c7f;
+  padding: 60px;
+  margin: 20px;
+  border-radius: 20px;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.subContent {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.explore {
+  font-size: 1.2rem;
+}
+.newsletter {
+  font-size: 2rem;
+}
+.input {
+  display: flex;
+  gap: 20px;
+}
+.inputBox {
+  width: 400px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+}
+.btn {
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: #f2c641;
+  border: 1px solid orange;
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 10px;
+  }
+  .input {
+    flex-direction: column;
+    width: 100%;
+  }
+  .inputBox {
+    width: 100%;
+  }
+  .btn {
+    width: 100%;
+  }
+  .newsletter {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}

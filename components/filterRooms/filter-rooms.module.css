@@ -1,0 +1,47 @@
+.filterTypes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f2c641;
+}
+.filterHeading {
+  color: black;
+}
+.searchType {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.inputBox {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.btn {
+  font-size: 1.2rem;
+  font-weight: bold;
+  width: 200px;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #038c7f;
+  border: none;
+  transition: transform 0.3s ease;
+}
+.btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+@media (max-width: 768px) {
+  .filterTypes {
+    flex-direction: column;
+  }
+  .btn {
+    width: 150px;
+    padding: 10px;
+  }
+  .inputBox {
+    margin-bottom: 30px;
+  }
+}

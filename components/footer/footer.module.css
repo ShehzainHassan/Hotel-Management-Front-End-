@@ -1,0 +1,53 @@
+.container {
+  padding: 20px;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hotelzz {
+  color: #f27405;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+.col {
+  display: flex;
+  justify-content: space-between;
+}
+.subcol {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 10px;
+  text-align: right;
+  line-height: 1.5rem;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+.subcol1 {
+  text-align: left;
+}
+.bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background-color: orange;
+  color: orange;
+}
+
+@media (max-width: 768px) {
+  .col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .subcol {
+    text-align: left;
+  }
+}
